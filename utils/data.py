@@ -23,25 +23,29 @@ COUNTRY_ISO3 = {
     "Uganda": "UGA", "Zambia": "ZMB", "Zimbabwe": "ZWE",
     # Africa – South
     "Botswana": "BWA", "Namibia": "NAM", "SouthAfrica": "ZAF",
+    "Eswatini": "SWZ", "Namimbia": "NAM", "SouthAfr": "ZAF",
     # Middle East
     "Iran": "IRN", "Iraq": "IRQ", "Israel": "ISR", "Jordan": "JOR", "Kuwait": "KWT",
-    "Oman": "OMN", "Qatar": "QAT", "SaudiArabia": "SAU", "Turkey": "TUR",
-    "UAE": "ARE", "Yemen": "YEM",
+    "Oman": "OMN", "Qatar": "QAT", "SaudiArabia": "SAU", "SaudiArab": "SAU",
+    "Turkey": "TUR", "UAE": "ARE", "Yemen": "YEM",
+    "Bahrain": "BHR", "Lebanon": "LBN", "Syria": "SYR",
     # Asia – South
     "Bangladesh": "BGD", "India": "IND", "Nepal": "NPL", "Pakistan": "PAK",
     "SriLanka": "LKA",
     # Asia – East & SE
-    "China": "CHN", "HongKong": "HKG", "Japan": "JPN", "Korea": "KOR",
-    "Mongolia": "MNG", "Taiwan": "TWN",
+    "China": "CHN", "HongKong": "HKG", "HingKong": "HKG", "Japan": "JPN",
+    "Korea": "KOR", "Mongolia": "MNG", "Taiwan": "TWN",
     "Cambodia": "KHM", "Indonesia": "IDN", "Laos": "LAO", "Malaysia": "MYS",
     "Myanmar": "MMR", "Philippines": "PHL", "Singapore": "SGP", "Thailand": "THA",
-    "Vietnam": "VNM",
+    "Vietnam": "VNM", "Brunei": "BRN",
     # Oceania
     "Australia": "AUS", "NewZealand": "NZL",
     # Americas – North
-    "Canada": "CAN", "Mexico": "MEX", "USA": "USA",
+    "Canada": "CAN", "Mexico": "MEX", "USA": "USA", "US": "USA",
     # Americas – Central & Caribbean
     "CostaRica": "CRI", "Honduras": "HND", "Nicaragua": "NIC", "Panama": "PAN",
+    "Guatemala": "GTM", "ElSalvador": "SLV", "DominicanRe": "DOM",
+    "Haiti": "HTI", "Jamaica": "JAM", "Trinidad": "TTO",
     # Americas – South
     "Argentina": "ARG", "Bolivia": "BOL", "Brazil": "BRA", "Chile": "CHL",
     "Colombia": "COL", "Ecuador": "ECU", "Paraguay": "PRY", "Peru": "PER",
@@ -51,16 +55,19 @@ COUNTRY_ISO3 = {
     "France": "FRA", "Germany": "DEU", "Greece": "GRC", "IRE": "IRL",
     "ITALY": "ITA", "LUXE": "LUX", "NTH": "NLD", "POR": "PRT",
     "SPA": "ESP", "SWED": "SWE", "SWIZ": "CHE", "UK": "GBR",
+    "AUST": "AUT", "BELG": "BEL", "DEN": "DNK", "FINL": "FIN",
+    "FRAN": "FRA", "GER": "DEU", "GRE": "GRC",
     # Europe – Central & Eastern
-    "BULG": "BGR", "CROA": "HRV", "CZE": "CZE", "ESTO": "EST", "HUNG": "HUN",
+    "BULG": "BGR", "BUL": "BGR", "CROA": "HRV", "CRO": "HRV",
+    "CZE": "CZE", "CZH": "CZE", "ESTO": "EST", "HUNG": "HUN",
     "LAT": "LVA", "LTH": "LTU", "MAL": "MLT", "POLA": "POL", "ROM": "ROU",
-    "SLK": "SVK", "SLO": "SVN",
+    "SLK": "SVK", "SLO": "SVN", "CYPR": "CYP",
     # Europe – Other
     "ALBA": "ALB", "SER": "SRB", "NORW": "NOR",
     # Former Soviet / Central Asia
     "Armenia": "ARM", "Azerbaijan": "AZE", "Belarus": "BLR", "Georgia": "GEO",
-    "Kazakhstan": "KAZ", "Kyrgyzstan": "KGZ", "Russia": "RUS", "Ukraine": "UKR",
-    "Uzbekistan": "UZB",
+    "Kazakhstan": "KAZ", "Kyrgyzstan": "KGZ", "Kyrgystan": "KGZ",
+    "Tajikistan": "TJK", "Russia": "RUS", "Ukraine": "UKR", "Uzbekistan": "UZB",
 }
 
 SECTORS = ["Agriculture", "Industry", "Transport", "Services"]
