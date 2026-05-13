@@ -9,7 +9,13 @@ st.set_page_config(
 
 # Sidebar — shown on all pages
 with st.sidebar:
-    st.image("assets/final_logo.svg", use_container_width=True)
+    _, col, _ = st.columns([0.5, 3, 0.5])
+    with col:
+        st.image("assets/final_logo.svg")   # AE4RIA — adjust path per app
+    st.space("small")
+    _, col, _ = st.columns([0.5, 3, 0.5])
+    with col:
+        st.image("assets/logo.png")         # SDSN — adjust path per app
     st.divider()
     st.caption("**Economic System**")
     st.caption(
@@ -25,8 +31,6 @@ with st.sidebar:
         - **NC** — National Commitments
         """
     )
-    st.divider()
-    st.image("assets/logo.png", use_container_width=True)
 
 # Navigation
 page = st.navigation(
